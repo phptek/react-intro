@@ -36,7 +36,7 @@ class Homepage extends Component {
         </div>
         <div className="row">
           <div className="col">
-            <Table mpData={Data} />
+            <Table mpData={Data} searchFieldValue={this.state.searchFieldValue} />
           </div>
         </div>
         <div className="row mt-3">
